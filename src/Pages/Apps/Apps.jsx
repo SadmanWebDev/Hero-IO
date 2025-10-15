@@ -3,13 +3,13 @@ import { useLoaderData } from "react-router";
 import AppCard from "../AppCard/AppCard";
 
 const Apps = () => {
-  const [search, setSearch] = useState("");
   const apps = useLoaderData();
+  const [search, setSearch] = useState("");
   const term = search.trim().toLocaleLowerCase();
   const searchedApps = term
-    ? apps.filter((app) => app.name.toLocaleLowerCase().includes(term))
+    ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term))
     : apps;
-  console.log(apps);
+
   return (
     <div className="py-[80px] bg-base-200">
       <div className="max-w-11/12 mx-auto text-center">
