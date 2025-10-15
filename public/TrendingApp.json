@@ -1,0 +1,90 @@
+[
+  {
+    "image": "https://i.ibb.co.com/qMGbHmsR/Gemini-Generated-Image-sc9remsc9remsc9r-4.png",
+    "title": "SmartWrite AI – Content Generator",
+    "companyName": "WordCraft Labs",
+    "id": 5,
+    "description": "SmartWrite AI assists you in composing articles, social posts, reports, and creative prose. It generates drafts, suggests edits, and improves tone, grammar, and style in multiple languages.",
+    "size": 76,
+    "reviews": 20400,
+    "ratingAvg": 4.8,
+    "downloads": "2.6M"
+  },
+  {
+    "image": "https://i.ibb.co.com/TqJnCxM3/Gemini-Generated-Image-sc9remsc9remsc9r-9.png",
+    "title": "SummarizeIt AI – Text Summarizer",
+    "companyName": "Briefly Inc.",
+    "id": 10,
+    "description": "SummarizeIt AI ingests articles, documents, or transcripts and delivers concise summaries, key points, and action items tailored to your needs.",
+    "size": 68,
+    "reviews": 20100,
+    "ratingAvg": 4.8,
+    "downloads": "2.3M"
+  },
+  {
+    "image": "https://i.ibb.co.com/23pkcPKf/Gemini-Generated-Image-sc9remsc9remsc9r.png",
+    "title": "ChatMaster AI – Smart Chat Assistant",
+    "companyName": "CortexLabs",
+    "id": 1,
+    "description": "ChatMaster AI is a conversational assistant that helps you write emails, generate ideas, and answer queries intelligently using natural language models.",
+    "size": 85,
+    "reviews": 21500,
+    "ratingAvg": 4.6,
+    "downloads": "3.2M"
+  },
+  {
+    "image": "https://i.ibb.co.com/mj4j9Lr/Gemini-Generated-Image-sc9remsc9remsc9r-2.png",
+    "title": "VoiceScribe AI – Voice to Text",
+    "companyName": "AudioMind",
+    "id": 3,
+    "description": "VoiceScribe AI converts your spoken words into polished text in real time, supporting multi-speaker meetings and language translation.",
+    "size": 98,
+    "reviews": 16300,
+    "ratingAvg": 4.7,
+    "downloads": "2.2M"
+  },
+  {
+    "image": "https://i.ibb.co.com/SjXRmSh/Gemini-Generated-Image-sc9remsc9remsc9r-5.png",
+    "title": "CodeGen AI – Code Assistant",
+    "companyName": "DevAssist Inc.",
+    "id": 6,
+    "description": "CodeGen AI generates code snippets and modules from descriptions, supports multiple languages, and provides optimization and debugging suggestions.",
+    "size": 88,
+    "reviews": 18200,
+    "ratingAvg": 4.6,
+    "downloads": "2.1M"
+  },
+  {
+    "image": "https://i.ibb.co.com/bgqNgCKG/Gemini-Generated-Image-sc9remsc9remsc9r-3.png",
+    "title": "TutorAI – Smart Study Helper",
+    "companyName": "EduNext",
+    "id": 4,
+    "description": "TutorAI offers adaptive learning, interactive quizzes, and progress tracking for personalized education across subjects.",
+    "size": 110,
+    "reviews": 19500,
+    "ratingAvg": 4.4,
+    "downloads": "2.4M"
+  },
+  {
+    "image": "https://i.ibb.co.com/N2XVzzBD/Gemini-Generated-Image-sc7j89sc7j89sc7j.png",
+    "title": "VoiceClone AI – Voice Generator",
+    "companyName": "AudioForge",
+    "id": 9,
+    "description": "VoiceClone AI creates realistic voice models and speech generation for podcasts, narrations, or voiceovers with customizable tone and speed.",
+    "size": 95,
+    "reviews": 12800,
+    "ratingAvg": 4.7,
+    "downloads": "1.6M"
+  },
+  {
+    "image": "https://i.ibb.co.com/jkTwmtfv/Gemini-Generated-Image-sc9remsc9remsc9r-6.png",
+    "title": "DeepVision AI – Image Analyzer",
+    "companyName": "ImageSense",
+    "id": 7,
+    "description": "DeepVision AI identifies objects, detects anomalies, and analyzes images in real time for automation, analytics, and creative uses.",
+    "size": 104,
+    "reviews": 14600,
+    "ratingAvg": 4.5,
+    "downloads": "1.7M"
+  }
+]

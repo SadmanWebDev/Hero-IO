@@ -5,7 +5,7 @@ import mainBanner from "../../assets/hero.png";
 
 const Banner = () => {
   return (
-    <div className="my-[80px]">
+    <div className="">
       <div className="text-center  max-w-[1260px] mx-auto flex flex-col items-center">
         <h1 className=" text-7xl font-bold">
           We Build <span className=" text-[#9F62F2]">Productive</span> Apps
@@ -49,10 +49,6 @@ const Banner = () => {
             <p className="text-white mb-[80px]">31 more will Launch</p>
           </div>
         </div>
-      </div>
-      <div className="text-center  max-w-[1260px] mx-auto flex flex-col items-center">
-        <h1 className="text-5xl font-bold">Trending Apps</h1>
-        <p>Explore All Trending Apps on the Market developed by us</p>
       </div>
     </div>
   );

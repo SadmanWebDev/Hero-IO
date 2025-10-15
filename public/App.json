@@ -1,0 +1,218 @@
+[
+  {
+    "image": "https://i.ibb.co.com/23pkcPKf/Gemini-Generated-Image-sc9remsc9remsc9r.png",
+    "title": "ChatMaster AI – Smart Chat Assistant",
+    "companyName": "CortexLabs",
+    "id": 1,
+    "description": "ChatMaster AI is a conversational assistant that leverages advanced natural language models to help you write emails, generate ideas, and answer queries intelligently. Whether you’re drafting content, brainstorming topics, or seeking code snippets, ChatMaster adapts to your style. It also supports voice input, contextual memory, and integration with third-party apps to make your workflow smoother and more efficient.",
+    "size": 85,
+    "reviews": 21500,
+    "ratingAvg": 4.6,
+    "downloads": "3.2M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 7300 },
+      { "name": "5 star", "count": 10200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nqtdjvjj/Gemini-Generated-Image-sc9remsc9remsc9r-1.png",
+    "title": "ImageGen Pro – AI Art Creator",
+    "companyName": "VisionaryTech",
+    "id": 2,
+    "description": "ImageGen Pro is an AI imaging tool that enables you to generate artistic visuals from prompts, edit photos with style transfer, and upscale resolution intelligently. Users can feed sketches, text descriptions, or reference images, and the app crafts unique output with control over style, color, and detail. It’s perfect for designers, artists, marketers, and creative professionals seeking fresh visuals on demand.",
+    "size": 142,
+    "reviews": 12700,
+    "ratingAvg": 4.5,
+    "downloads": "1.85M",
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 920 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 5800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/mj4j9Lr/Gemini-Generated-Image-sc9remsc9remsc9r-2.png",
+    "title": "VoiceScribe AI – Voice to Text",
+    "companyName": "AudioMind",
+    "id": 3,
+    "description": "VoiceScribe AI converts your spoken words into polished text in real time, with features like punctuation injection, speaker separation, and language translation. It supports multi-speaker meetings and can generate meeting summaries and action items automatically. Ideal for journalists, students, interviewers, and professionals who want seamless voice to text conversion without manual clean up or editing effort.",
+    "size": 98,
+    "reviews": 16300,
+    "ratingAvg": 4.7,
+    "downloads": "2.2M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5300 },
+      { "name": "5 star", "count": 7200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bgqNgCKG/Gemini-Generated-Image-sc9remsc9remsc9r-3.png",
+    "title": "TutorAI – Smart Study Helper",
+    "companyName": "EduNext",
+    "id": 4,
+    "description": "TutorAI offers personalized learning experiences by adapting to each student’s pace, style, and knowledge gaps. It uses intelligent assessment, explanations, and tailored exercises across subjects like math, science, and languages. Interactive quizzes, step-by-step solutions, and progress tracking make studying more engaging. Teachers and learners alike benefit from insights into weak areas and suggestions for improvement.",
+    "size": 110,
+    "reviews": 19500,
+    "ratingAvg": 4.4,
+    "downloads": "2.4M",
+    "ratings": [
+      { "name": "1 star", "count": 850 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3400 },
+      { "name": "4 star", "count": 6100 },
+      { "name": "5 star", "count": 9150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qMGbHmsR/Gemini-Generated-Image-sc9remsc9remsc9r-4.png",
+    "title": "SmartWrite AI – Content Generator",
+    "companyName": "WordCraft Labs",
+    "id": 5,
+    "description": "SmartWrite AI assists you in composing articles, social posts, reports, and creative prose. It generates drafts, suggests edits, and improves tone, grammar, and style in multiple languages. You can feed context or instructions, and it tailors suggestions accordingly. Writers, marketers, and bloggers can speed up content creation while maintaining high quality and originality.",
+    "size": 76,
+    "reviews": 20400,
+    "ratingAvg": 4.8,
+    "downloads": "2.6M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 10600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SjXRmSh/Gemini-Generated-Image-sc9remsc9remsc9r-5.png",
+    "title": "CodeGen AI – Code Assistant",
+    "companyName": "DevAssist Inc.",
+    "id": 6,
+    "description": "CodeGen AI accelerates development by generating code snippets, full functions, and even small modules from high-level descriptions. It understands multiple programming languages, handles error correction, and offers suggestions for optimization. Developers can ask for API integration, algorithmic solutions, or debug help. This tool boosts productivity and helps with learning new languages or stacks more quickly.",
+    "size": 88,
+    "reviews": 18200,
+    "ratingAvg": 4.6,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 630 },
+      { "name": "2 star", "count": 1050 },
+      { "name": "3 star", "count": 2900 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 9020 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/jkTwmtfv/Gemini-Generated-Image-sc9remsc9remsc9r-6.png",
+    "title": "DeepVision AI – Image Analyzer",
+    "companyName": "ImageSense",
+    "id": 7,
+    "description": "DeepVision AI is a computer vision platform that can identify objects, detect anomalies, and segment scenes in photos or live camera streams. It supports tasks like face recognition, object counting, and image labeling. Use it for surveillance, automation, retail analytics, or creative effects. The app provides real-time insights, bounding boxes, and exportable data to integrate into your workflows.",
+    "size": 104,
+    "reviews": 14600,
+    "ratingAvg": 4.5,
+    "downloads": "1.7M",
+    "ratings": [
+      { "name": "1 star", "count": 550 },
+      { "name": "2 star", "count": 940 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 6010 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/kVX4RnsY/Gemini-Generated-Image-sc9remsc9remsc9r-7.png",
+    "title": "Predictify – Trend Predictor",
+    "companyName": "ForecastAI",
+    "id": 8,
+    "description": "Predictify uses advanced predictive modeling and machine learning to forecast trends, sales, or user behavior based on your data inputs. You can upload datasets or connect real-time data sources, and the app returns predictions, confidence intervals, and visualizations. Business analysts, marketers, and product teams use it to drive decisions and test scenarios before committing resources.",
+    "size": 128,
+    "reviews": 11250,
+    "ratingAvg": 4.3,
+    "downloads": "1.4M",
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 780 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 5450 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/N2XVzzBD/Gemini-Generated-Image-sc7j89sc7j89sc7j.png",
+    "title": "VoiceClone AI – Voice Generator",
+    "companyName": "AudioForge",
+    "id": 9,
+    "description": "VoiceClone AI lets you create realistic voice models from sample recordings. You can clone your voice or blend styles to generate speech for narration, podcasts, or voiceovers. Customize tone, speed, and emphasis. It is built with safety filters to prevent misuse. Enterprises, creators, and accessibility projects benefit from its high fidelity and control over voice synthesis.",
+    "size": 95,
+    "reviews": 12800,
+    "ratingAvg": 4.7,
+    "downloads": "1.6M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 850 },
+      { "name": "3 star", "count": 2250 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 5400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TqJnCxM3/Gemini-Generated-Image-sc9remsc9remsc9r-9.png",
+    "title": "SummarizeIt AI – Text Summarizer",
+    "companyName": "Briefly Inc.",
+    "id": 10,
+    "description": "SummarizeIt AI ingests articles, documents, or transcripts and delivers concise summaries, key points, and action items tailored to your needs. It supports multiple languages, tone preferences, and length limits. Whether you're catching up on news, reports, or long transcripts, this tool distills them into manageable insight. Professionals, students, and busy readers find it indispensable.",
+    "size": 68,
+    "reviews": 20100,
+    "ratingAvg": 4.8,
+    "downloads": "2.3M",
+    "ratings": [
+      { "name": "1 star", "count": 480 },
+      { "name": "2 star", "count": 960 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 6100 },
+      { "name": "5 star", "count": 10860 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/N2XVzzBD/Gemini-Generated-Image-sc7j89sc7j89sc7j.png",
+    "title": "AutoDesign AI – Logo Maker",
+    "companyName": "DesignBot",
+    "id": 11,
+    "description": "AutoDesign AI helps you generate logos, branding assets, and layouts based on your business or project name. Just enter style preferences, color palettes, or keywords, and it suggests dozens of design versions. You can refine, edit, and export in multiple formats. It’s ideal for startups, marketers, and designers who need fast, unique visual identity creation without deep design expertise.",
+    "size": 102,
+    "reviews": 9900,
+    "ratingAvg": 4.4,
+    "downloads": "1.25M",
+    "ratings": [
+      { "name": "1 star", "count": 340 },
+      { "name": "2 star", "count": 680 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 3900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/2r5ks0M/Gemini-Generated-Image-sc7j89sc7j89sc7j-1.png",
+    "title": "EmotionSense AI – Emotion Detector",
+    "companyName": "Affectiva Labs",
+    "id": 12,
+    "description": "EmotionSense AI analyzes facial expressions, voice tone, and text to gauge emotional states. It’s useful in customer service, education, and mental health tools to detect sentiment in real time. You receive metrics on engagement, frustration, happiness, and more. Developers can integrate its API, while analysts can visualize emotional trends across users or sessions.",
+    "size": 118,
+    "reviews": 10450,
+    "ratingAvg": 4.5,
+    "downloads": "1.35M",
+    "ratings": [
+      { "name": "1 star", "count": 390 },
+      { "name": "2 star", "count": 750 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 4300 },
+      { "name": "5 star", "count": 3310 }
+    ]
+  }
+]
