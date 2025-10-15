@@ -1,7 +1,8 @@
 import React from "react";
 import Banner from "../Banner/Banner";
-import { useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 import TrendingApp from "../TrendingApp/TrendingApp";
+import AppCard from "../AppCard/AppCard";
 
 const Home = () => {
   const trendingApps = useLoaderData();
@@ -15,16 +16,13 @@ const Home = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5 text-center max-w-[1260px] mx-auto">
-        {trendingApps.map((trendingApp) => (
-          <TrendingApp
-            key={trendingApp.id}
-            trendingApp={trendingApp}
-          ></TrendingApp>
+        {trendingApps.map((appCard) => (
+          <AppCard key={appCard.id} appCard={appCard}></AppCard>
         ))}
       </div>
-      <button className="btn btn-primary mt-5 max-w-[1260px] mx-auto flex flex-col items-center">
-        Show All
-      </button>
+      <Link to="/apps">
+        <button className="btn btn-primary mt-5 flex mx-auto">Show All</button>
+      </Link>
     </div>
   );
 };

@@ -6,6 +6,7 @@ import { ToastContainer } from "react-toastify";
 import Roots from "../Roots/Roots";
 import Home from "../Pages/Home/Home";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import Apps from "../Pages/Apps/Apps";
 
 export const router = createBrowserRouter([
   {
@@ -16,8 +17,13 @@ export const router = createBrowserRouter([
       {
         index: true,
         path: "/",
-        loader: () => fetch("TrendingApp.json"),
+        loader: () => fetch("TrendingApps.json"),
         Component: Home,
+      },
+      {
+        path: "/apps",
+        loader: () => fetch("Apps.json"),
+        Component: Apps,
       },
     ],
   },
