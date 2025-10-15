@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useLoaderData } from "react-router";
 import AppCard from "../AppCard/AppCard";
+import ErrorAppPage from "../ErrorAppPage/ErrorAppPage";
 
 const Apps = () => {
   const apps = useLoaderData();
@@ -20,7 +21,7 @@ const Apps = () => {
         <div className="flex justify-between mb-4">
           <h3 className="font-semibold text-2xl">
             All Apps{" "}
-            <span className="text-sm text-gray-500">
+            <span className=" text-sm font-normal text-gray-500">
               ({searchedApps.length}) Apps Found.
             </span>
           </h3>
@@ -50,11 +51,15 @@ const Apps = () => {
             />
           </label>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
-          {searchedApps.map((app) => (
-            <AppCard key={app.id} appCard={app}></AppCard>
-          ))}
-        </div>
+        {searchedApps.length === 0 ? (
+          <ErrorAppPage></ErrorAppPage>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
+            {searchedApps.map((app) => (
+              <AppCard key={app.id} appCard={app}></AppCard>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
