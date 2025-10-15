@@ -4,6 +4,7 @@ import dIcon from "../../assets/icon-downloads.png";
 import raIcon from "../../assets/icon-ratings.png";
 import reIcon from "../../assets/icon-review.png";
 import RatingChart from "../RatingChart/RatingChart";
+import { addInInstallation } from "../utility/handleInstall";
 
 const AppDetails = () => {
   const apps = useLoaderData();
@@ -20,11 +21,14 @@ const AppDetails = () => {
     size,
     title,
   } = app;
-  console.log(ratings);
+
+  const handleInstall = (id) => {
+    addInInstallation(id);
+  };
 
   return (
     <div className="max-w-11/12 m-auto py-20">
-      <div className="flex">
+      <div className="flex-row text-center md:text-left md:flex">
         <img className="w-[330px] mr-10 mb-10" src={image} alt="" />
         <div>
           <h1 className="text-3xl font-bold mb-3">{title}</h1>
@@ -32,24 +36,27 @@ const AppDetails = () => {
             Developed by <span className="text-[#9F62F2]">{companyName}</span>
           </p>
           <div className="border border-gray-300 mb-7"></div>
-          <div className="flex mb-8">
-            <div className="mr-6 flex flex-col items-center">
+          <div className="md:flex flex-row mb-8">
+            <div className="mb-6 md:mr-12 flex flex-col items-center">
               <img className="w-[30px]" src={dIcon} alt="" />
               <p>Downloads</p>
               <span className="font-bold text-4xl">{downloads}</span>
             </div>
-            <div className="mr-6 flex flex-col items-center">
+            <div className="mb-6 md:mr-12 flex flex-col items-center">
               <img className="w-[30px]" src={raIcon} alt="" />
               <p>Average Ratings</p>
               <span className="font-bold text-4xl">{ratingAvg}</span>
             </div>
-            <div className="mr-6 flex flex-col items-center">
+            <div className="mb-6 md:mr-12 flex flex-col items-center">
               <img className="w-[30px]" src={reIcon} alt="" />
               <p>Total Reviews</p>
               <span className="font-bold text-4xl">{reviews}</span>
             </div>
           </div>
-          <button className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+          <button
+            onClick={() => handleInstall(id)}
+            className="btn mb-5 text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+          >
             Install Now ({size}MB)
           </button>
         </div>

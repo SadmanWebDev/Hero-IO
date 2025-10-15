@@ -12,7 +12,7 @@ const Navbar = () => {
       <Link to="/apps">
         <li className="mr-7">Apps</li>
       </Link>
-      <Link>
+      <Link to="/installation">
         <li className="mr-7">Installation</li>
       </Link>
     </>
@@ -45,10 +45,12 @@ const Navbar = () => {
             {link}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">
-          <img className="w-[40px]" src="/logo.png" alt="" />
-          HERO.IO
-        </a>
+        <Link to="/">
+          <button className="btn btn-ghost text-xl">
+            <img className="w-[40px]" src="/logo.png" alt="" />
+            HERO.IO
+          </button>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{link}</ul>
