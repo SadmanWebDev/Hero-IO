@@ -29,7 +29,7 @@ const AppDetails = () => {
   return (
     <div className="max-w-11/12 m-auto py-20">
       <div className="flex-row text-center md:text-left md:flex">
-        <img className="w-[330px] mr-10 mb-10" src={image} alt="" />
+        <img className="w-[330px] mr-10 mb-10 rounded-2xl" src={image} alt="" />
         <div>
           <h1 className="text-3xl font-bold mb-3">{title}</h1>
           <p className=" mb-7">

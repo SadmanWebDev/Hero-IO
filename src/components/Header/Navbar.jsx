@@ -1,20 +1,20 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router";
-
+import { Link, NavLink } from "react-router";
+import "./Navbar.css";
 const Navbar = () => {
   const link = (
     <>
-      <Link to="/">
-        <li className="mr-7">Home</li>
-      </Link>
-      <Link to="/apps">
-        <li className="mr-7">Apps</li>
-      </Link>
-      <Link to="/installation">
-        <li className="mr-7">Installation</li>
-      </Link>
+      <NavLink to="/" className="nav-link">
+        <li className="mr-7 font-semibold">Home</li>
+      </NavLink>
+      <NavLink to="/apps" className="nav-link">
+        <li className="mr-7 font-semibold">Apps</li>
+      </NavLink>
+      <NavLink to="/installation" className="nav-link">
+        <li className="mr-7 font-semibold">Installation</li>
+      </NavLink>
     </>
   );
   return (

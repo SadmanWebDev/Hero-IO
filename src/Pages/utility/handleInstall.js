@@ -20,4 +20,25 @@ const addInInstallation = (id) => {
   }
 };
 
-export { addInInstallation, getInstallApp };
+const removeFromInstallation = (id) => {
+  const existingData = localStorage.getItem("install");
+  if (existingData) {
+    const installAppData = JSON.parse(existingData);
+    const updatedData = installAppData.filter((appId) => appId !== id);
+    localStorage.setItem("install", JSON.stringify(updatedData));
+    console.log(installAppData);
+  }
+};
+
+/*   const handleResolved = (customer) => {
+    const NewResolvedTask = [...resolvedTask, customer];
+    setResolvedTask(NewResolvedTask);
+    toast.success("Task Resolved!");
+    const remaining = taskStatus.filter((task) => task.id !== customer.id);
+    setTaskStatus(remaining);
+
+    const remainingTask = tasks.filter((task) => task.id !== customer.id);
+    setTasks(remainingTask);
+  }; */
+
+export { addInInstallation, getInstallApp, removeFromInstallation };

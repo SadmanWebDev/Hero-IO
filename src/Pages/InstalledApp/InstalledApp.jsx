@@ -2,9 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload, faStar } from "@fortawesome/free-solid-svg-icons";
 
-const InstalledApp = ({ app }) => {
-  const { image, title, size, ratingAvg, downloads } = app;
-  console.log(app);
+const InstalledApp = ({ app, handleRemove }) => {
+  const { id, image, title, size, ratingAvg, downloads } = app;
   return (
     <div className="flex justify-between items-center p-4 rounded-md bg-white mb-5">
       <div className="flex">
@@ -25,7 +24,9 @@ const InstalledApp = ({ app }) => {
           </div>
         </div>
       </div>
-      <button className="btn btn-primary">Uninstall</button>
+      <button onClick={() => handleRemove(id)} className="btn btn-primary">
+        Uninstall
+      </button>
     </div>
   );
 };
