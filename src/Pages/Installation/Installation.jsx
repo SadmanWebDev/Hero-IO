@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 import { useLoaderData } from "react-router";
 import InstalledApp from "../InstalledApp/InstalledApp";
 import {
@@ -22,9 +21,7 @@ const Installation = () => {
   }, []);
 
   const handleRemove = (id) => {
-    // Remove from localStorage
     removeFromInstallation(id);
-    // Update state
     const updatedItems = install.filter((app) => app.id !== id);
     setInstall(updatedItems);
   };
@@ -74,8 +71,8 @@ const Installation = () => {
               onChange={(e) => setSort(e.target.value)}
             >
               <option value="none">Sort by price</option>
-              <option value="LToH">Low-&gt;High</option>
-              <option value="HToL">High-&gt;Low</option>
+              <option value="LToH">Low to High</option>
+              <option value="HToL">High to Low</option>
             </select>
           </label>
         </div>

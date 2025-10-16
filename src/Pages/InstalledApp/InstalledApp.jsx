@@ -5,9 +5,9 @@ import { faDownload, faStar } from "@fortawesome/free-solid-svg-icons";
 const InstalledApp = ({ app, handleRemove }) => {
   const { id, image, title, size, ratingAvg, downloads } = app;
   return (
-    <div className="flex justify-between items-center p-4 rounded-md bg-white mb-5">
+    <div className="flex justify-between items-center p-2 md:p-4 rounded-md bg-white mb-5">
       <div className="flex">
-        <img className="w-20 mr-4 rounded-lg" src={image} alt="" />
+        <img className="w-20 md:mr-4 rounded-lg" src={image} alt="" />
         <div>
           <h1 className="text-xl font-semibold mb-3">{title}</h1>
           <div className="flex">

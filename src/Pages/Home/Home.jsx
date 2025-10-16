@@ -9,13 +9,13 @@ const Home = () => {
   return (
     <div className="py-[80px] bg-base-200">
       <Banner></Banner>
-      <div className="text-center  max-w-[1260px] mx-auto flex flex-col items-center">
+      <div className="text-center  max-w-11/12 mx-auto flex flex-col items-center">
         <h1 className="text-5xl font-bold">Trending Apps</h1>
         <p className="mt-4 mb-9">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-5 text-center max-w-[1260px] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 text-center max-w-11/12 mx-auto">
         {trendingApps.map((appCard) => (
           <AppCard key={appCard.id} appCard={appCard}></AppCard>
         ))}

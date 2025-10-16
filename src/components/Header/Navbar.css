@@ -13,3 +13,7 @@
   font-weight: 800;
   font-size: large;
 }
+
+.rotating-element {
+  animation: spin 2s linear infinite; /* 2s duration, linear timing, infinite loop */
+}

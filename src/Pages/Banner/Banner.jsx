@@ -32,18 +32,18 @@ const Banner = () => {
         <h1 className=" text-5xl font-bold text-white mt-[80px] mb-[40px]">
           Trusted by Millions, Built for You
         </h1>
-        <div className="md:flex">
-          <div className="">
+        <div className="lg:flex">
+          <div className="md:mr-30">
             <p className="text-white">Total Downloads</p>
             <h1 className="font-bold text-6xl text-white my-4">29.6M</h1>
             <p className="text-white">21% more than last month</p>
           </div>
-          <div>
+          <div className="md:mr-30">
             <p className="text-white">Total Reviews</p>
             <h1 className="font-bold text-6xl text-white my-4">906K</h1>
             <p className="text-white">46% more than last month</p>
           </div>
-          <div>
+          <div className="">
             <p className="text-white">Active Apps</p>
             <h1 className="font-bold text-6xl text-white my-4">132+</h1>
             <p className="text-white mb-[80px]">31 more will Launch</p>
