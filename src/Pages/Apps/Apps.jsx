@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { useLoaderData } from "react-router";
 import AppCard from "../AppCard/AppCard";
 import ErrorAppPage from "../ErrorAppPage/ErrorAppPage";
+import useApps from "../../hooks/useApps";
 
 const Apps = () => {
-  const apps = useLoaderData();
+  const {apps, loading} = useApps()
   const [search, setSearch] = useState("");
   const term = search.trim().toLocaleLowerCase();
   const searchedApps = term

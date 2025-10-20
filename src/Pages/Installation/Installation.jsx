@@ -2,10 +2,8 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useLoaderData } from "react-router";
 import InstalledApp from "../InstalledApp/InstalledApp";
-import {
-  getInstallApp,
-  removeFromInstallation,
-} from "../utility/handleInstall";
+import { getInstallApp, removeFromInstallation } from "../../utility/handleInstall";
+
 
 const Installation = () => {
   const [install, setInstall] = useState([]);
@@ -70,7 +68,7 @@ const Installation = () => {
               value={sort}
               onChange={(e) => setSort(e.target.value)}
             >
-              <option value="none">Sort by price</option>
+              <option value="none">Sort by size</option>
               <option value="LToH">Low to High</option>
               <option value="HToL">High to Low</option>
             </select>

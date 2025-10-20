@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import dIcon from "../../assets/icon-downloads.png";
 import raIcon from "../../assets/icon-ratings.png";
 import reIcon from "../../assets/icon-review.png";
 import RatingChart from "../RatingChart/RatingChart";
-import { addInInstallation } from "../utility/handleInstall";
+import { addInInstallation, getInstallApp } from "../../utility/handleInstall";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
   const apps = useLoaderData();
@@ -22,8 +23,20 @@ const AppDetails = () => {
     title,
   } = app;
 
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  useEffect(() => {
+    const installedApps = getInstallApp();
+    const numericId = parseInt(id);
+    if (installedApps.includes(numericId)) {
+      setIsInstalled(true);
+    }
+  }, [id]);
+
   const handleInstall = (id) => {
     addInInstallation(id);
+    setIsInstalled(true);
+    toast.success("App Installed")
   };
 
   return (
@@ -59,9 +72,12 @@ const AppDetails = () => {
           </div>
           <button
             onClick={() => handleInstall(id)}
-            className="btn mb-5 text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+            disabled={isInstalled}
+            className={
+              "btn mb-5 text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+            }
           >
-            Install Now ({size}MB)
+            {isInstalled ? "Installed" : `Install Now (${size}MB)`}
           </button>
         </div>
       </div>

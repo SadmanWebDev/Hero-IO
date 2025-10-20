@@ -1,34 +1,30 @@
+import { toast } from "react-toastify";
+
 const getInstallApp = () => {
   const existingData = localStorage.getItem("install");
-  if (existingData) {
-    const installAppData = JSON.parse(existingData);
-    return installAppData;
-  } else {
-    return [];
-  }
+  return existingData ? JSON.parse(existingData) : [];
 };
 
 const addInInstallation = (id) => {
   const installAppData = getInstallApp();
+  const numericId = parseInt(id); 
 
-  if (installAppData.includes(id)) {
-    alert("khaesere dhora khaise!");
+  if (installAppData.includes(numericId)) {
+    alert("Already installed!");
   } else {
-    installAppData.push(id);
-    const data = JSON.stringify(installAppData);
-    localStorage.setItem("install", data);
+    installAppData.push(numericId);
+    localStorage.setItem("install", JSON.stringify(installAppData));
   }
 };
 
 const removeFromInstallation = (id) => {
-  const existingData = localStorage.getItem("install");
-  if (existingData) {
-    const installAppData = JSON.parse(existingData);
-    const updatedData = installAppData.filter((appId) => appId !== id);
-    localStorage.setItem("install", JSON.stringify(updatedData));
-    console.log(installAppData);
-  }
+  const numericId = parseInt(id); 
+  const existingData = getInstallApp();
+  const updatedData = existingData.filter((appId) => appId !== numericId);
+  localStorage.setItem("install", JSON.stringify(updatedData));
+  toast.success("App Uninstalled")
 };
+
 
 /*   const handleResolved = (customer) => {
     const NewResolvedTask = [...resolvedTask, customer];

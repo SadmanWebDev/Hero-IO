@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 
 const useApps = () => {
@@ -6,10 +7,12 @@ const useApps = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    setLoading(true);
-    fetch("../Apps.json")
+    setLoading(true)
+    axios("./Apps.json")
       .then((data) => setApps(data.data))
-      .catch((err) => setError(err))
+      .catch((error) => {
+        setError(error);
+      })
       .finally(() => setLoading(false));
   }, []);
 

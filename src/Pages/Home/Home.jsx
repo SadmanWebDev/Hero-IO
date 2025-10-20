@@ -1,11 +1,13 @@
 import React from "react";
 import Banner from "../Banner/Banner";
-import { Link, useLoaderData } from "react-router";
+import { Link } from "react-router";
 import TrendingApp from "../TrendingApp/TrendingApp";
 import AppCard from "../AppCard/AppCard";
+import useApps from "../../hooks/useApps";
 
 const Home = () => {
-  const trendingApps = useLoaderData();
+  const { apps, loading } = useApps();
+  const trendingApps = apps.slice(0, 8);
   return (
     <div className="py-[80px] bg-base-200">
       <Banner></Banner>
