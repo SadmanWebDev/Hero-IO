@@ -2,15 +2,22 @@ import React, { useState } from "react";
 import AppCard from "../AppCard/AppCard";
 import ErrorAppPage from "../ErrorAppPage/ErrorAppPage";
 import useApps from "../../hooks/useApps";
+import Loading from "../../components/Loading/Loading";
 
 const Apps = () => {
-  const {apps, loading} = useApps()
+  const { apps, loading } = useApps();
   const [search, setSearch] = useState("");
   const term = search.trim().toLocaleLowerCase();
   const searchedApps = term
     ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term))
     : apps;
-
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <Loading />
+      </div>
+    );
+  }
   return (
     <div className="py-[80px] bg-base-200">
       <div className="max-w-11/12 mx-auto text-center">

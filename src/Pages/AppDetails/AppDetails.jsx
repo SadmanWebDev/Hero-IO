@@ -6,9 +6,12 @@ import reIcon from "../../assets/icon-review.png";
 import RatingChart from "../RatingChart/RatingChart";
 import { addInInstallation, getInstallApp } from "../../utility/handleInstall";
 import { toast } from "react-toastify";
+import useApps from "../../hooks/useApps";
+import Loading from "../../components/Loading/Loading";
 
 const AppDetails = () => {
   const apps = useLoaderData();
+  const { loading } = useApps();
   const { id } = useParams();
   const app = apps.find((app) => String(app.id) === id);
   const {
@@ -36,8 +39,16 @@ const AppDetails = () => {
   const handleInstall = (id) => {
     addInInstallation(id);
     setIsInstalled(true);
-    toast.success("App Installed")
+    toast.success("App Installed");
   };
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <Loading></Loading>
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-11/12 m-auto py-20">
