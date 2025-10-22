@@ -43,7 +43,7 @@ const Installation = () => {
   }, [sort]);
 
   return (
-    <div className="bg-base-200 py-20">
+    <div className="bg-base-200 py-20 min-h-screen">
       {loading ? (
         <div className="flex justify-center items-center min-h-screen">
           <Loading />
